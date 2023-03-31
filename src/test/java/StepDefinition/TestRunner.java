@@ -7,6 +7,7 @@ import io.cucumber.junit.*;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/Features",
 glue={"StepDefinition"},
+monochrome= true,
 plugin = {"pretty","junit:target/report.xml"},
 tags = "@smoketest"
 )
