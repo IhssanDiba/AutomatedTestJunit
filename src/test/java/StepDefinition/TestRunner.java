@@ -16,4 +16,4 @@ public class TestRunner {
 }
 
 //{"pretty","html:targets/HtmlReports.html"}
-//plugin = {"pretty","json:target/JSONReports.json"}
+//{"pretty","json:target/JSONReports.json"}
